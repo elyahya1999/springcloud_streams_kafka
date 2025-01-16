@@ -1,16 +1,9 @@
-start bin\windows\zookeeper-server-start.bat config/zookeeper.properties
-start bin\windows\kafka-server-start.bat config/server.properties
+## start bin\windows\zookeeper-server-start.bat config/zookeeper.properties
+## start bin\windows\kafka-server-start.bat config/server.properties
 
 
 ![WhatsApp Image 2025-01-05 à 20 53 42_f7b38b20](https://github.com/user-attachments/assets/6b39ed6f-7b6d-41e6-9476-97c8ce2b6753)
 ![WhatsApp Image 2025-01-05 à 20 53 58_5814ff97](https://github.com/user-attachments/assets/077b349a-cefe-4733-ab2f-803c78f57ba2)
-
-
-
-start bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic R1
-start bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic R1
-
-
 ![WhatsApp Image 2025-01-05 à 21 02 45_06474f0e](https://github.com/user-attachments/assets/aef66639-558a-426b-b789-d4c13c9de7db)
 ![WhatsApp Image 2025-01-05 à 21 02 59_c5cf4bb4](https://github.com/user-attachments/assets/b80eda46-b21b-49df-8822-e59a3973b8c8)
 ![WhatsApp Image 2025-01-05 à 21 10 44_0ccf4e26](https://github.com/user-attachments/assets/1fcb074a-9a3b-4106-964e-57725a5b0317)
